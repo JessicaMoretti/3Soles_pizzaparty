@@ -209,10 +209,10 @@ h2{
 
 footer{
     width: 100%;
-    background-color: #ffd214;
+    background-image: linear-gradient(to bottom, rgb(202, 142, 13),#ffd214);
 }
 
-footer .grupo1{
+footer .footergrande{
     width: 100%;
     margin: auto;
     display: grid;
@@ -223,7 +223,7 @@ footer .grupo1{
     flex-wrap: wrap;
 }
 
-footer .grupo1 .box figure{
+footer .footergrande .box figure{
     width: 100%;
     height: 100%;
     display: flex;
@@ -231,7 +231,7 @@ footer .grupo1 .box figure{
     align-items: center;
 }
 
-footer .grupo1 .box figure img{
+footer .footergrande .box figure img{
     width: 120px;
 }
 
@@ -240,12 +240,12 @@ footer .grupo1 .box figure img{
     margin-bottom: 10px;
 }
 
-footer .grupo1 .box p{
+footer .footergrande .box p{
     color: rgb(63, 63, 63);
     margin-bottom: 10px;
 }
 
-footer .grupo1 .redes-sociales a{
+footer .footergrande .redes-sociales a{
     display: inline-block;
     text-decoration: none;
     font-size: 20px;
@@ -260,12 +260,12 @@ footer .grupo1 .redes-sociales a{
     border-radius: 20px;
 }
 
-footer .grupo1 .redes-sociales a:hover{
+footer .footergrande .redes-sociales a:hover{
     color:rgb(63, 63, 63);
     background-color: white;
 }
 
-footer .grupo2{
+footer .subfooter{
     background-color: rgb(63, 63, 63);
     text-align: center;
     padding: 10px;
@@ -303,11 +303,11 @@ footer .grupo2{
         font-size: 12px;
     }
 
-    footer .grupo1 {
+    footer .footergrande {
         grid-template-columns: unset;
     }
 
-    footer .grupo1 .box{
+    footer .footergrande .box{
         padding-left: 20px;
         padding-right: 20px;
     }
